@@ -90,11 +90,11 @@ export default function HeroSection() {
           <div data-depth="-18" className="hero-photo">
             <LiquidCard strong refract magnetic={0} radius="999px" className="aspect-square w-full p-3 sm:p-4">
               <img
-                src="/eloah-circle.png"
+                src="/eloah-hero.jpg"
                 alt={`${SITE_NAME}`}
                 className="h-full w-full rounded-full object-cover"
-                width={992}
-                height={992}
+                width={900}
+                height={900}
                 fetchPriority="high"
               />
             </LiquidCard>

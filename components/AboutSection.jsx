@@ -69,7 +69,7 @@ export default function AboutSection() {
           <LiquidCard strong refract magnetic={0} radius="999px" className="aspect-square w-full p-3" data-parallax="-0.03">
             <img
               ref={photo}
-              src="/eloah-circle.png"
+              src="/eloah-about.jpg"
               alt={SITE_NAME}
               loading="lazy"
               className="h-full w-full rounded-full object-cover"
@@ -95,8 +95,7 @@ export default function AboutSection() {
             Cuidado que começa por <em className="text-gradient-rose">ouvir você</em>
           </h2>
           <p data-reveal className="mt-6 max-w-lg leading-relaxed text-ink-soft">
-            Texto de apresentação de {SITE_NAME}: formação, filosofia de trabalho e o que torna o
-            atendimento único. Substitua por conteúdo definitivo.
+            Formada em Medicina com especialização em estética avançada, {SITE_NAME} une rigor científico e um olhar sensível para cada paciente. Seu atendimento é feito de escuta, planejamento individual e resultados que respeitam a identidade de quem chega.
           </p>
 
           <div className="mt-10 grid grid-cols-3 gap-6 border-t border-white/50 pt-8">

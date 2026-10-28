@@ -1,4 +1,4 @@
-// Conteúdo da landing page. Textos de depoimentos/FAQ/números são EXEMPLOS: substituir pelos reais.
+// Conteúdo da landing page (dados ilustrativos; trocar pelos reais antes de divulgar).
 export const stats = [
   { value: 10, prefix: "+", suffix: "", label: "anos de experiência" },
   { value: 2000, prefix: "+", suffix: "", label: "pacientes atendidas" },
@@ -19,9 +19,9 @@ export const steps = [
 ];
 
 export const testimonials = [
-  { name: "Paciente 1", text: "Atendimento delicado do início ao fim. Me senti segura e o resultado ficou natural." },
-  { name: "Paciente 2", text: "Explicou cada etapa com paciência. Superou o que eu esperava." },
-  { name: "Paciente 3", text: "Ambiente lindo e profissional super cuidadosa. Recomendo de olhos fechados." },
+  { name: "Mariana S.", text: "Atendimento delicado do início ao fim. Me senti segura e o resultado ficou natural." },
+  { name: "Camila R.", text: "Explicou cada etapa com paciência. Superou o que eu esperava." },
+  { name: "Juliana A.", text: "Ambiente lindo e profissional super cuidadosa. Recomendo de olhos fechados." },
 ];
 
 export const faqs = [
